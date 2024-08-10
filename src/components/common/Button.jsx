@@ -1,4 +1,6 @@
-const Button = () =>
+import theme from '../../utilis/theme'
+
+const Button = (props) =>
 {
 const {text,handleClick}= props
 return (

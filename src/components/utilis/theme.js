@@ -1,4 +1,4 @@
-export const theme = {
+const theme = {
   eggShell: '#fdfbf9',
   white: '#ffffff',
   purple:'#4b2aad',
@@ -6,3 +6,4 @@ export const theme = {
   cream: '#f5efeb'
 
 }
+export default theme;

@@ -1,7 +1,11 @@
 import React from 'react'
+import PageLayout from '../common/PageLayout'
 const DigitalProduct =() =>{
-  <div
-  >
+  return(
+    <PageLayout>
+      <Nav />
+    </PageLayout>
+  );
+};
 
-  </div>
-}
+export default DigitalProduct;
