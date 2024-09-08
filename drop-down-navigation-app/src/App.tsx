@@ -17,6 +17,10 @@ function App() {
 
   return (
    <>
+   <div className='mr-20px'>
+   <Button variant="ghost" className='	left: 0.125rem; mr-2px '>Login</Button>
+   <Button variant="outline" className='border-neutral-950 '>Register</Button>
+   </div>
    <NavigationMenu className='ml-20 	mt-10px'>
       <NavigationMenuList>
         <NavigationMenuItem>
