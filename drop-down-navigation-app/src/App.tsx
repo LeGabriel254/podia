@@ -59,9 +59,9 @@ function App() {
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
             <ul>
                        
-                       <li><a href="">To do list</a></li>
-                       <li><a href="">Calender</a></li>
-                       <li><a href="">Reminders</a></li>
+                       <li><a href="">History</a></li>
+                       <li><a href="">Our Team</a></li>
+                       <li><a href="">Blog</a></li>
                        </ul>
             </ul>
           </NavigationMenuContent>
@@ -85,6 +85,7 @@ function App() {
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
+    <Button variant="outline">Learn More</Button>
    </>
   )
 }
