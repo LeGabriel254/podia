@@ -19,7 +19,7 @@ function App() {
   return (
    <>
    <Main />
-   <div className='flex flex-row-reverse ... flex space-x-4 ... hover:space-x-8 '>
+   <div className='flex flex-row-reverse ... flex space-x-4 ... hover:space-x-8  t-0'>
    <Button variant="outline" className='border-neutral-950 '>Register</Button>
    <Button variant="ghost" className='	left: 0.125rem;  '>Login</Button>
    </div>
@@ -36,7 +36,7 @@ function App() {
                     href="/"
                   >
             
-                    <div className="mb-2 mt-4 font-light ... font-medium">
+                    <div className="mb-2 mt-4 font-light ... ">
                       <ul>
                        
                       <li><a href="">To do list</a></li>
@@ -85,7 +85,7 @@ function App() {
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
-    <Button variant="outline">Learn More</Button>
+    <Button variant="outline" className='bg-gray-800 text-white px-6 py-2 rounded-md'>Learn More</Button>
    </>
   )
 }
