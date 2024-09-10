@@ -19,7 +19,7 @@ function App() {
   return (
    <>
    <Main />
-   <div className='flex flex-row-reverse ... flex space-x-4 ... hover:space-x-8  t-0'>
+   <div className='flex flex-row-reverse ... flex space-x-4 ... hover:space-x-8  mt-4'>
    <Button variant="outline" className='border-neutral-950 '>Register</Button>
    <Button variant="ghost" className='	left: 0.125rem;  '>Login</Button>
    </div>
