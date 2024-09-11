@@ -1,6 +1,8 @@
 import React from 'react'
 
 
+
+
 function main (){
   return (
 
@@ -18,7 +20,7 @@ function main (){
 
         {/* Logos */}
         <div className="flex space-x-8 mt-12">
-          <img src="databiz.png" alt="Databiz" className="h-8" />
+          <img src="" alt="Databiz" className="h-8" />
           <img src="audiophile.png" alt="Audiophile" className="h-8" />
           <img src="meet.png" alt="Meet" className="h-8" />
           <img src="maker.png" alt="Maker" className="h-8" />
