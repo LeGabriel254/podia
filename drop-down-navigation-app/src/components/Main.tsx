@@ -1,14 +1,31 @@
-// import React from 'react'
+import React from 'react'
 
-// const Main = () => {
-//   return (
-//     <div className='container flex flex-col items-center justify-center min-h-screen'>
-//       <h1 className='hero ext-4xl font-bold mb-4l'>Make remote work</h1>
-//       <p className='text-lg mt-20 mr-10 text-center'>Get your team in sync, no matter your location. <br />
-//         Streamline processes, create team rituals and productivy soar.
-//       </p>
-//     </div>
-//   )
-// } 
 
-// export default Main
+function main (){
+  return (
+
+
+    <main className="flex flex-col lg:flex-row items-center justify-between px-6 lg:px-24 mt-12">
+      {/* Left Side - Text */}
+      <div className="max-w-lg">
+        <h1 className="text-5xl font-bold text-black mb-6">Make remote work</h1>
+        <p className="text-gray-600 text-lg mb-8">
+          Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.
+        </p>
+        <button className="bg-black text-white py-3 px-6 rounded-md hover:bg-slate-200">
+          Learn More
+        </button>
+
+        {/* Logos */}
+        <div className="flex space-x-8 mt-12">
+          <img src="databiz.png" alt="Databiz" className="h-8" />
+          <img src="audiophile.png" alt="Audiophile" className="h-8" />
+          <img src="meet.png" alt="Meet" className="h-8" />
+          <img src="maker.png" alt="Maker" className="h-8" />
+        </div>
+      </div>
+    </main>
+
+  )
+}
+export default main;
