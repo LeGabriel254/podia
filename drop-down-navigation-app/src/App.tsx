@@ -11,17 +11,16 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "./components/ui/navigation-menu"
-import Main from './components/Main';
+// import Main from './components/Main';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
    <>
-   <Main />
-   <div className='flex flex-row-reverse ... flex space-x-4 ... hover:space-x-8  mt-4'>
-   <Button variant="outline" className='border-neutral-950 '>Register</Button>
+   {/* <Main /> */}
+   <div className="flex justify-end items-center p-4">
    <Button variant="ghost" className='	left: 0.125rem;  '>Login</Button>
+   <Button variant="outline" className='border-neutral-950 '>Register</Button>
    </div>
    <NavigationMenu className='flex flex-row ... absolute left--100rem top-0  ...'>
       <NavigationMenuList>
@@ -85,7 +84,7 @@ function App() {
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
-    <Button variant="outline" className='bg-gray-800 text-white px-6 py-2 rounded-md'>Learn More</Button>
+    <Button variant="outline" className='bg-gray-800 text-white px-6 py-2 rounded-md flex items-center '>Learn More</Button>
    </>
   )
 }
