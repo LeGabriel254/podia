@@ -1,6 +1,9 @@
-import React from 'react'
-
-
+import React from 'react';
+import databiz from "../assets/databiz.svg";
+import meet from "../assets/meet.svg";
+import audiophile from "../assets/audiophile.svg";
+import maker from "../assets/maker.svg"
+import desktop from "../assets/desktops.png"
 
 
 function main (){
@@ -20,12 +23,29 @@ function main (){
 
         {/* Logos */}
         <div className="flex space-x-8 mt-12">
-          <img src="" alt="Databiz" className="h-8" />
-          <img src="audiophile.png" alt="Audiophile" className="h-8" />
-          <img src="meet.png" alt="Meet" className="h-8" />
-          <img src="maker.png" alt="Maker" className="h-8" />
+          <img src={databiz} alt="Databiz" className="h-8" />
+          <img src={audiophile} alt="Audiophile" className="h-8" />
+          <img src={meet} alt="Meet" className="h-8" />
+          <img src={maker} alt="Maker" className="h-8" />
         </div>
       </div>
+
+
+      
+        {/* Right Side - Image and Background Shapes */}
+        <div className="relative mt-12 lg:mt-0">
+          {/* Abstract shapes
+          <div className="absolute -top-16 -left-10 w-64 h-64 bg-purple-500 rounded-full opacity-40"></div>
+          <div className="absolute top-24 left-20 w-32 h-32 bg-yellow-300 rounded-full"></div>
+          <div className="absolute top-44 right-10 w-40 h-40 bg-blue-500"></div> */}
+
+          {/* Image */}
+          <img
+            src={desktop}
+            alt="Person working"
+            className="relative z-10 rounded-full"
+          />
+        </div>
     </main>
 
   )
