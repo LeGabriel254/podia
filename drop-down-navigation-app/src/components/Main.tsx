@@ -33,7 +33,7 @@ function main (){
 
       
         {/* Right Side - Image and Background Shapes */}
-        <div className="relative mt-12 lg:mt-0">
+        <div className=" relative  mt-12 lg:mt-10 l-20 object-contain">
           {/* {/* Abstract shapes */}
           <div className="absolute -top-16 -left-10 w-64 h-64 bg-purple-500 rounded-full opacity-40"></div>
           <div className="absolute top-24 left-20 w-32 h-32 bg-yellow-300 rounded-full"></div>
