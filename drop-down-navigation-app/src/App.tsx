@@ -18,11 +18,8 @@ function App() {
   return (
    <>
    <Main /> 
-   <div className="flex justify-end items-center p-4 space-x-4 ">
-   <Button variant="ghost" className='	left: 0.125rem;  '>Login</Button>
-   <Button variant="outline" className='border-neutral-950 '>Register</Button>
-   </div>
-   <NavigationMenu className='flex flex-row ... absolute left--100rem top-0  ...'>
+   
+   <NavigationMenu className='flex flex-row ... absolute left--100rem top-0  ...  p-12 ms:p--8'>
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Feature</NavigationMenuTrigger>
@@ -81,9 +78,16 @@ function App() {
               About
             </NavigationMenuLink>
           </a>
+          <div className="items-center gap-1 absolute ...padding-left: 0.25rem;
+
+padding-right: 0.25rem;  ">
+   <Button variant="ghost" className=' absolute top-2 right-2'>Login</Button>
+   <Button variant="outline" className='border-neutral-950 absolute top-0 right-0 '>Register</Button> 
+   </div> 
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
+   
     {/* <Button variant="outline" className='bg-gray-800 text-white px-6 py-2 place-content-center flex items-center  justify-self: center;'>Learn More</Button> */}
    </>
   )
