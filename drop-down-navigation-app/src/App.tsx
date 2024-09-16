@@ -78,8 +78,7 @@ function App() {
               About
             </NavigationMenuLink>
           </a>
-          <div className="items-center gap-1 absolute ...padding-left: 0.25rem;
-
+          <div className="items-center gap-1 absolute ...padding-left: 0.25rem
 padding-right: 0.25rem;  ">
    <Button variant="ghost" className=' absolute top-2 right-2'>Login</Button>
    <Button variant="outline" className='border-neutral-950 absolute top-0 right-0 '>Register</Button> 
